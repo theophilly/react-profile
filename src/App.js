@@ -110,6 +110,11 @@ function App() {
             </li>
           </ul>
         </div>
+        <div>
+          <button>
+            <i class="fas fa-file"></i>my resume
+          </button>
+        </div>
       </div>
     </div>
   );

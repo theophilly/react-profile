@@ -14,10 +14,11 @@ body {
 
 .AboutPage {
   display: flex;
+  height: auto;
 }
 
 .innerp {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .yellow {
   color: linear-gradient(to left top, rgb(33, 110, 33), rgb(219, 219, 81));
@@ -126,7 +127,27 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.contentSection div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 80%;
+  padding: 15px 20px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
 
+button i {
+  color: rgb(42, 84, 245);
+  font-size: 1.2rem;
+  margin-right: 6px;
+}
 @media Screen and (max-width: 1020px) {
   .AboutPage {
     flex-direction: column;
