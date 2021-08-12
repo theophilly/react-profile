@@ -31,9 +31,9 @@ function App() {
           <hr style={{ width: 25 }}></hr>
           <ul>
             <p className="innerp">
-              I’m a Kolade, web-developer based on Nigeria. I love creating
+              I’m Kolade, a web-developer based in Nigeria. I love creating
               beautiful websites to provide intuitive and dynamic experience to
-              our users.
+              users.
             </p>
             <p className="innerp">
               Since I learnt to code, I have always felt in love with the art of
@@ -47,7 +47,7 @@ function App() {
             </p>
             <p className="innerp yellow">
               I'm currently looking for my first entry level opportunity as a
-              junior software developer
+              software developer
             </p>
           </ul>
         </div>
