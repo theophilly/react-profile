@@ -8,18 +8,19 @@ function App() {
         <div className="aboutPageOverlay">
           <p>Hey I'm Adeyemi Kolade</p>
           <p>
-            A contemporary Nigerian artist whose main medium is painting. His
-            studio practice His studio practice also
+            Innovative Frontend Developer, experienced in building and
+            maintaining responsive websites. Proficient in HTML, CSS,
+            JavaScript, React, React Native and Node js
           </p>
           <p>
-            <a href="#">
-              <i class="fab fa-instagram"></i>
+            <a target="_blank" href="https://www.instagram.com/theophillysg/">
+              <i className="fab fa-instagram"></i>
             </a>
-            <a href="#">
-              <i class="fab fa-github"></i>
+            <a target="_blank" href="https://github.com/theophilly">
+              <i className="fab fa-github"></i>
             </a>
-            <a href="#">
-              <i class="fab fa-twitter"></i>
+            <a target="_blank" href="https://twitter.com/theodasa">
+              <i className="fab fa-twitter"></i>
             </a>
           </p>
         </div>
@@ -64,7 +65,7 @@ function App() {
               <p className="innerp">
                 <span className="innerSpan">LIBRARIES & FRAMEWORKS:</span>{' '}
                 jQuery, Bootstrap, Chakra UI, Node, React Native MongoDB,
-                Express, React
+                Wordpress Express, React
               </p>
             </li>
             <li>
@@ -111,9 +112,14 @@ function App() {
           </ul>
         </div>
         <div>
-          <button>
-            <i class="fas fa-file"></i>my resume
-          </button>
+          <form
+            style={{ width: '100%', justifyContent: 'center', display: 'flex' }}
+            action="./cv.pdf"
+          >
+            <button>
+              <i className="fas fa-file"></i>my resume
+            </button>
+          </form>
         </div>
       </div>
     </div>
