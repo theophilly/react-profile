@@ -190,6 +190,7 @@ button i {
   }
   .profileImage {
     background-position: bottom center;
-    background-size: 450px;
+    background-size: 550px;
+    max-height: 60vh !important;
   }
 }

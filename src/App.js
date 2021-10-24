@@ -13,13 +13,25 @@ function App() {
             JavaScript, React, React Native and Node js
           </p>
           <p>
-            <a target="_blank" href="https://www.instagram.com/theophillysg/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/theophillysg/"
+            >
               <i className="fab fa-instagram"></i>
             </a>
-            <a target="_blank" href="https://github.com/theophilly">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/theophilly"
+            >
               <i className="fab fa-github"></i>
             </a>
-            <a target="_blank" href="https://twitter.com/theodasa">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/theodasa"
+            >
               <i className="fab fa-twitter"></i>
             </a>
           </p>
