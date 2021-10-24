@@ -185,11 +185,11 @@ button i {
 
 @media Screen and (max-width: 530px) {
   .aboutPageOverlay {
-    margin-top: 80vh;
+    margin-top: 70vh;
     padding: 10px;
   }
   .profileImage {
-    margin-top: -300px;
+    margin-top: -330px;
     background-position: bottom center;
     background-size: 550px;
     max-height: 60vh !important;
