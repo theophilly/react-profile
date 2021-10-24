@@ -188,4 +188,8 @@ button i {
     margin-top: 70vh;
     padding: 10px;
   }
+  .profileImage {
+    background-position: bottom center;
+    background-size: 450px;
+  }
 }
