@@ -1,7 +1,10 @@
 import React from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './index.css';
 
 function App() {
+  Aos.init();
   return (
     <div className="AboutPage">
       <div className="profileImage">
@@ -39,10 +42,20 @@ function App() {
       </div>
       <div className="contentSection">
         <div>
-          <span className="titleSpan">Intro</span>
-          <hr style={{ width: 25 }}></hr>
+          <span
+            className="titleSpan"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Intro
+          </span>
+          <hr
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            style={{ width: 25 }}
+          ></hr>
           <ul>
-            <p className="innerp">
+            <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
               I’m Kolade, a web-developer based in Nigeria. I love creating
               beautiful websites to provide intuitive and dynamic experience to
               users.
@@ -53,35 +66,41 @@ function App() {
               of the world to create applications which can be beneficial to
               people all around the world is an empowering experience.
             </p>
-            <p className="innerp">
+            <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
               Beside programming, I love travelling, spending time with my
               family, reading books and playing football.
             </p>
-            <p className="innerp yellow">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="innerp yellow"
+            >
               I'm currently looking for my first entry level opportunity as a
               software developer
             </p>
           </ul>
         </div>
         <div>
-          <span className="titleSpan">Skills</span>
-          <hr style={{ width: 26 }}></hr>
+          <div data-aos="fade-up" data-aos-duration="1000">
+            <span className="titleSpan">Skills</span>
+            <hr style={{ width: 26 }}></hr>
+          </div>
           <ul>
             <li>
-              <p className="innerp">
+              <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
                 <span className="innerSpan">LANGUAGES:</span> JavaScript (ES6),
                 HTML5, CSS3
               </p>
             </li>
             <li>
-              <p className="innerp">
+              <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
                 <span className="innerSpan">LIBRARIES & FRAMEWORKS:</span>{' '}
                 jQuery, Bootstrap, Chakra UI, Node, React Native MongoDB,
                 Wordpress Express, React
               </p>
             </li>
             <li>
-              <p className="innerp">
+              <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
                 <span className="innerSpan">TOOLS:</span> Git & Github, Command
                 Line, Postman, Adobe XD
               </p>
@@ -90,24 +109,26 @@ function App() {
         </div>
 
         <div>
-          <span className="titleSpan">PROJECTS</span>
-          <hr></hr>
+          <div data-aos="fade-up" data-aos-duration="1000">
+            <span className="titleSpan">PROJECTS</span>
+            <hr></hr>
+          </div>
           <ul>
             <li>
-              <p className="innerp">
+              <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
                 <span className="projectSpan">myportfolio</span>
                 I’m a Kolade, web-developer based on Nigeria. I love creating
                 beautiful websites to provide intuitive and dynamic experience
                 to our users.
               </p>
-              <p className="innerp">
+              <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
                 <span className="projectSpan">247 Nigerian News: </span>
                 An andriod App which provides current news in Nigeria, It
                 fetches news from different sources using Wordpress REST API.
                 Written in JavaScript using React Native. Access it on playstore
                 using the link above
               </p>
-              <p className="innerp">
+              <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
                 <span className="projectSpan">Advicebox</span>
                 Web app built on the MERN (MongoDB, Express, React, Node) stack
                 for my web development class. It uses Redux for the state
@@ -115,7 +136,7 @@ function App() {
                 intention of allowing registered users drop advices under
                 different advice categories.
               </p>
-              <p className="innerp">
+              <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
                 <span className="projectSpan">Educator</span>
                 Educator is a Single page React website for an imaginary
                 instution.
