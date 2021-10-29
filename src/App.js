@@ -55,17 +55,21 @@ function App() {
             style={{ width: 25 }}
           ></hr>
           <ul>
-            <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
-              I’m Kolade, a web-developer based in Nigeria. I love creating
-              beautiful websites to provide intuitive and dynamic experience to
-              users.
-            </p>
-            <p className="innerp">
-              Since I learnt to code, I have always felt in love with the art of
-              programming. The possibility of writing code from one tiny corner
-              of the world to create applications which can be beneficial to
-              people all around the world is an empowering experience.
-            </p>
+            <div data-aos="fade-up" data-aos-duration="1000">
+              <p className="innerp">
+                I’m Kolade, a web-developer based in Nigeria. obsessed with
+                solving complex problems using React, MongoDB, and Node by
+                building web applications with an emphasis on accessibility and
+                usability.
+              </p>
+              <p className="innerp">
+                Since I learnt to code, I have always felt in love with the art
+                of programming. The possibility of writing code from one tiny
+                corner of the world to create applications which can be
+                beneficial to people all around the world is an empowering
+                experience.
+              </p>
+            </div>
             <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
               Beside programming, I love travelling, spending time with my
               family, reading books and playing football.
@@ -75,8 +79,11 @@ function App() {
               data-aos-duration="1000"
               className="innerp yellow"
             >
-              I'm currently looking for my first entry level opportunity as a
-              software developer
+              I'm currently looking to contribute my skills to a team where I
+              can prove my skills while growing in my capabilities. If you are
+              looking for a competent, highly-motivated developer, let's chat.
+              You can reach me at theophilly20@gmail.com or by DMing me here on
+              LinkedIn.
             </p>
           </ul>
         </div>
@@ -95,8 +102,8 @@ function App() {
             <li>
               <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
                 <span className="innerSpan">LIBRARIES & FRAMEWORKS:</span>{' '}
-                jQuery, Bootstrap, Chakra UI, Node, React Native MongoDB,
-                Wordpress Express, React
+                React, Node, Express, React Native, Material UI, Chakra UI,
+                Socket IO, MongoDB, Wordpress,
               </p>
             </li>
             <li>
