@@ -19,9 +19,9 @@ function App() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.instagram.com/theophillysg/"
+              href="www.linkedin.com/in/adeyemi-kolade"
             >
-              <i className="fab fa-instagram"></i>
+              <i class="fab fa-linkedin"></i>
             </a>
             <a
               target="_blank"
@@ -82,8 +82,7 @@ function App() {
               I'm currently looking to contribute my skills to a team where I
               can prove my skills while growing in my capabilities. If you are
               looking for a competent, highly-motivated developer, let's chat.
-              You can reach me at theophilly20@gmail.com or by DMing me here on
-              LinkedIn.
+              You can reach me at theophilly20@gmail.com
             </p>
           </ul>
         </div>
@@ -123,10 +122,10 @@ function App() {
           <ul>
             <li>
               <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
-                <span className="projectSpan">myportfolio</span>
-                I’m a Kolade, web-developer based on Nigeria. I love creating
-                beautiful websites to provide intuitive and dynamic experience
-                to our users.
+                <span className="projectSpan">Food Ordering System: </span>A
+                food ordering website, where registered users can order for food
+                from a particular restaurant. It also has user profile page
+                where user can edit profile information and see order history
               </p>
               <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
                 <span className="projectSpan">247 Nigerian News: </span>
@@ -143,18 +142,13 @@ function App() {
                 intention of allowing registered users drop advices under
                 different advice categories.
               </p>
-              <p data-aos="fade-up" data-aos-duration="1000" className="innerp">
-                <span className="projectSpan">Educator</span>
-                Educator is a Single page React website for an imaginary
-                instution.
-              </p>
             </li>
           </ul>
         </div>
         <div>
           <form
             style={{ width: '100%', justifyContent: 'center', display: 'flex' }}
-            action="./cv.pdf"
+            action="./newCV.pdf"
           >
             <button>
               <i className="fas fa-file"></i>my resume
