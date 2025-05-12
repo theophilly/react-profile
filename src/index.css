@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .profileImage::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   right: 0px;
@@ -54,7 +54,7 @@ body {
   top: 0;
   position: sticky;
   position: -webkit-sticky;
-  background: url('./a.png');
+  background: url("./a.png");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -157,13 +157,13 @@ button i {
     position: relative;
     min-height: 100vh;
     width: 100%;
-    background: url('./a.png');
+    background: url("./a.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   .profileImage::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0px;
     right: 0px;
@@ -197,4 +197,17 @@ button i {
   .contentSection {
     padding: 35px 15px;
   }
+}
+
+/* added */
+.responsibilities-list {
+  list-style-type: disc !important; /* Standard bullet points */
+  margin-left: 20px; /* Indentation for the list */
+  padding-left: 10px; /* Padding for the list items */
+}
+
+.responsibilities-list li {
+  margin-bottom: 10px; /* Space between list items */
+  line-height: 1.6; /* Improve readability */
+  color: #555; /* Match innerp color */
 }
